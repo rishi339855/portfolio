@@ -30,22 +30,6 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div className="about-photo">
-            <div className="profile-photo">
-              <img
-                src="/student-photo.jpg"
-                alt="Rishikesh Reddy - Computer Science Student"
-                onError={(e) => {
-                  e.target.style.display = "none";
-                  e.target.nextSibling.style.display = "flex";
-                }}
-              />
-              <div className="photo-placeholder">
-                <FaUserGraduate size={80} />
-                <p>Student Photo</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

@@ -6,7 +6,6 @@ import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Publications from "./components/Publications";
-import Achievements from "./components/Achievements";
 import Societies from "./components/Societies";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -22,7 +21,6 @@ function App() {
       <Experience />
       <Projects />
       <Publications />
-      <Achievements />
       <Societies />
       <Contact />
       <Footer />

@@ -6,40 +6,40 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import {
-  FaShoppingCart,
-  FaTasks,
-  FaCloudSun,
+  FaChartLine,
+  FaUtensils,
+  FaSignLanguage,
   FaGithub,
   FaExternalLinkAlt,
 } from "react-icons/fa";
 
 const projectsData = [
   {
-    icon: <FaShoppingCart size={50} />,
+    icon: <FaChartLine size={50} />, // Stock Market icon
     title: "Stock Market Management System",
     description:
       "A full-stack e-commerce application built with React, Node.js, and MongoDB. Features include user authentication, product management, and payment integration.",
     technologies: "React, Node.js, PostgreSQL, Tailwind CSS",
     year: "2024",
-    github: "#",
+    github: "https://github.com/rishi339855/Stock-Market-Management-System-",
   },
   {
-    icon: <FaTasks size={50} />,
-    title: "Task Management App",
+    icon: <FaUtensils size={50} />, // Recipe/Food icon
+    title: "Recipee Master",
     description:
-      "A collaborative task management application with real-time updates, team collaboration features, and progress tracking.",
-    technologies: "React, Firebase, Material-UI",
-    year: "2023",
-    github: "#",
+      "•\tCreated a recipe platform featuring over 100,000 dishes, with functionalities for bookmarking, adding and storing entries.",
+    technologies: "HTML,CSS,JavaScript",
+    year: "2024",
+    github: "https://github.com/rishi339855/Recipee-Master",
   },
   {
-    icon: <FaCloudSun size={50} />,
-    title: "Weather Dashboard",
+    icon: <FaSignLanguage size={50} />, // Sign Language/Hand icon
+    title: "SignBridge AI",
     description:
-      "A weather application that displays current weather conditions and forecasts for multiple locations with interactive maps.",
-    technologies: "JavaScript, OpenWeather API, Chart.js",
-    year: "2023",
-    github: "#",
+      "•\tDeveloped a real-time Sign Language recognition system that converts hand gestures to text and speech using webcam input, alphabet classification, word suggestions, and multilingual text output.",
+    technologies: "MediaPipe, OpenCV, TensorFlow/Keras, Streamlit, MongoDB",
+    year: "2025",
+    github: "https://github.com/rishi339855/SignBridge-AI",
   },
 ];
 

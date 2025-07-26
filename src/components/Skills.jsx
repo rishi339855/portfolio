@@ -47,6 +47,7 @@ const skillsData = [
       { name: "DBMS", icon: <FaBookOpen /> },
       { name: "Data Structures and Algorithms", icon: <FaBookOpen /> },
       { name: "OOPs", icon: <FaBookOpen /> },
+      { name: "System Design", icon: <FaBookOpen /> },
     ],
   },
 ];

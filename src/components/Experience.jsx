@@ -9,32 +9,33 @@ const Experience = () => {
         <div className="experience-item">
           <div className="experience-header">
             <h3>
-              <FaBuilding style={{ marginRight: "10px" }} />
-              ATDXT <span className="experience-location">Bangalore, IN</span>
+              Real-Time Driver Monitoring System
+              <span className="experience-location">
+                Dept. of Computer Science
+              </span>
             </h3>
             <p className="experience-role-date">
-              <span className="experience-role">Project Intern</span>
               <span className="experience-date">
                 <FaCalendarAlt style={{ marginRight: "5px" }} />
-                Nov 2023 - May 2024
+                August 2024 - November 2024
               </span>
             </p>
           </div>
           <div className="experience-details">
             <ul>
               <li>
-                Created and implemented a desktop software integrating iris,
-                fingerprint, and facial recognition for secure user
-                authentication.
+                Engineered a detection system with MediaPipe and YOLOv8 to
+                identify driver drowsiness, yawning, and phone usage during the
+                trip.
               </li>
-            </ul>
-            <h4>Area of Contribution:</h4>
-            <ul>
               <li>
-                Developed an iris recognition model utilizing the CASIA Dataset
-                and ResNET50 architecture.
+                Built a dual-interface website delivering live alerts to drivers
+                and detailed trip reports to fleet owners.
               </li>
-              <li>Achieved 88% accuracy in biometric identification.</li>
+              <li>
+                Achieved over 90% accuracy, mitigating accident risks and
+                enhancing overall fleet safety.
+              </li>
             </ul>
           </div>
         </div>

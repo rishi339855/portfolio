@@ -79,11 +79,6 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#achievements">
-              <FaTrophy /> Achievements
-            </a>
-          </li>
-          <li>
             <a href="#societies">
               <FaUsers /> Societies
             </a>
